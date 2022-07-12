@@ -4,51 +4,30 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal TypeScript starter
+  Gatsby TypeScript + JEST.
 </h1>
+
+## Description
+
+Gatsby project configured with typescript. Shows a problem with configuring **jest** for gatsby.
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1. **Clone repo.**<br><br>
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+2. **Install deps and run.**
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+   After clone repo navigate into project directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
+    cd gatsby-jest-bug/
+    npm install
     npm run develop
     ```
 
-3.  **Open the code and start customizing!**
+3. **Project structure**
 
-    Your site is now running at http://localhost:8000!
+Branch **master** -> clean config Gatsby + TS + eslint & prettier<br><br>
+Branch **jest-problem** -> Added config jest and react testing library. Testing gatsby Link generate error in console.
+<br><br>Branch **jest-solved** -> My solution that fixes the test.
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
